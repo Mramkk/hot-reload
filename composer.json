@@ -1,0 +1,29 @@
+{
+    "name": "mram/laravel-hot-reload",
+    "description": "Laravel hot reload using Browsersync (dev-only)",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "hot-reload",
+        "browsersync",
+        "dev-tool"
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
+        "symfony/process": "^5.0|^6.0|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mram\\LaravelHotReload\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mram\\LaravelHotReload\\HotReloadServiceProvider"
+            ]
+        }
+    }
+}
