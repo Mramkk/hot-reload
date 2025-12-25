@@ -10,7 +10,7 @@ This package is designed as a **development-only** dependency with **zero global
 This package is intended **only for local development**.
 
 ```bash
-composer require --dev mram/laravel-hot-reload
+composer require mram/laravel-hot-reload
 
 Requirements
 
